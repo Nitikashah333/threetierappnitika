@@ -3,11 +3,11 @@ name: Frontend CI/CD
 on:
   push:
     branches:
-      - main
+      - dev
   workflow_dispatch:
   
 env:
-  DOCKER_REPO: three-tier
+  DOCKER_REPO: threetierappnitika
 
 jobs:
   build-and-push:
