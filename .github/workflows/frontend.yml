@@ -6,7 +6,7 @@ on:
       - dev
 workflow_dispatch:
 env:
-  DOCKER_REPO: three-tier
+  DOCKER_REPO: threetierappnitika 
 
 jobs:
   build-and-push:
