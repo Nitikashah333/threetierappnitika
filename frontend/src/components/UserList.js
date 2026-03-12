@@ -15,7 +15,7 @@ const UserList = ({ users, onUserDeleted }) => {
   
   return (
     <div>
-      <h2>listofUsers ({users.length})</h2>
+      <h2>list of Users  ({users.length})</h2>
       {users.length === 0 ? (
         <p>No users found</p>
       ) : (
